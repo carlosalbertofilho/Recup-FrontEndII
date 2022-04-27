@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    grid-template:
+        'header'
+        'main'
+        'footer';
+}
+header{
+    grid-area: header;
+    background: black;
+    width: 100px;
+}
+header img {
+    width: 100px;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
