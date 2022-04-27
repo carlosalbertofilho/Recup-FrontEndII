@@ -1,0 +1,23 @@
+Info 0    [13:32:47.510] Starting TS Server
+Info 1    [13:32:47.511] Version: 4.6.3
+Info 2    [13:32:47.511] Arguments: /usr/bin/node /home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/tsserver.js --logFile /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/774bcff521deb156ac50935ad5e358de/tscancellation*
+Info 3    [13:32:47.511] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [13:32:47.511] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [13:32:47.524] Format host information updated
+Info 6    [13:32:47.536] Search path: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII
+Info 7    [13:32:47.537] For info: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/main.js :: No config files found.
+Info 8    [13:32:47.543] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [13:32:48.453] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 909.538126999978ms
+Info 10   [13:32:48.453] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [13:32:48.453] 	Files (19)
+
+Info 12   [13:32:48.453] -----------------------------------------------
+Info 13   [13:32:49.761] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 14   [13:32:49.851] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 89.8845080002211ms
+Info 15   [13:32:49.851] Project '/dev/null/inferredProject1*' (Inferred)
+Info 16   [13:32:49.852] 	Files (23)
+
+Info 17   [13:32:49.852] -----------------------------------------------
+Info 18   [13:32:52.013] Before ensureProjectForOpenFiles:
+Info 19   [13:32:52.013] After ensureProjectForOpenFiles:
+Info 20   [13:32:52.014] got projects updated in background, updating diagnostics for /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/main.js

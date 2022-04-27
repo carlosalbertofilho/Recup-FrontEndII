@@ -1,0 +1,73 @@
+[13:32:47.776] Global cache location '/home/carlos.filho/.cache/typescript/4.6', safe file path '/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/typesMap.json
+[13:32:47.777] Processing cache location '/home/carlos.filho/.cache/typescript/4.6'
+[13:32:47.777] Trying to find '/home/carlos.filho/.cache/typescript/4.6/package.json'...
+[13:32:47.778] Loaded content of '/home/carlos.filho/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.590"}}
+[13:32:47.778] Loaded content of '/home/carlos.filho/.cache/typescript/4.6/package-lock.json'
+[13:32:47.778] Finished processing cache location '/home/carlos.filho/.cache/typescript/4.6'
+[13:32:47.778] Process id: 19283
+[13:32:47.778] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[13:32:47.778] validateDefaultNpmLocation: false
+[13:32:47.779] Npm config file: /home/carlos.filho/.cache/typescript/4.6/package.json
+[13:32:47.779] Updating types-registry npm package...
+[13:32:47.779] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[13:32:48.536]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 578ms
+
+found 0 vulnerabilities
+
+[13:32:48.536] Updated types-registry npm package
+[13:32:48.574] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/main.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/carlos.filho/Documentos/Projects/Recup-FrontEndII","kind":"discover"}
+[13:32:48.591] Loaded safelist from types map file '/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/typesMap.json'
+[13:32:48.592] Explicitly included types: []
+[13:32:48.593] Typing names in '/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json' dependencies: ["eslint","eslint-config-google"]
+[13:32:48.593] Searching for typing names in /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules; all files: ["/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules/eslint/package.json","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules/eslint-config-google/package.json"]
+[13:32:48.595]     Found package names: ["eslint","eslint-config-google"]
+[13:32:48.595] Inferred typings from unresolved imports: []
+[13:32:48.595] Result: {"cachedTypingPaths":[],"newTypingNames":["eslint","eslint-config-google"],"filesToWatch":["/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/bower_components","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules"]}
+[13:32:48.595] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["eslint","eslint-config-google"],"filesToWatch":["/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/bower_components","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules"]}
+[13:32:48.595] DirectoryWatcher:: Added:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/bower_components
+[13:32:48.596] DirectoryWatcher:: Added:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:32:48.597] Elapsed:: 1.2912099999375641ms DirectoryWatcher:: Added:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:32:48.597] FileWatcher:: Added:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json
+[13:32:48.597] FileWatcher:: Added:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json 2000 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:32:48.598] DirectoryWatcher:: Added:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules
+[13:32:48.598] DirectoryWatcher:: Added:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:32:48.612] Elapsed:: 13.905845999717712ms DirectoryWatcher:: Added:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[13:32:48.612] Installing typings ["eslint","eslint-config-google"]
+[13:32:48.612] 'eslint-config-google':: Entry for package 'eslint-config-google' does not exist in local types registry - skipping...
+[13:32:48.612] Npm config file: /home/carlos.filho/.cache/typescript/4.6/package.json
+[13:32:48.612] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":1,"typingsInstallerVersion":"4.6.3","projectName":"/dev/null/inferredProject1*"}
+[13:32:48.613] Response has been sent.
+[13:32:48.613] #1 with arguments'["@types/eslint@ts4.6"]'.
+[13:32:48.613] Exec: /usr/bin/npm install --ignore-scripts @types/eslint@ts4.6 --save-dev --user-agent="typesInstaller/4.6.3"
+[13:32:49.494]     Succeeded. stdout:
+    
+    added 3 packages, and audited 5 packages in 691ms
+
+found 0 vulnerabilities
+
+[13:32:49.494] npm install #1 took: 881 ms
+[13:32:49.495] Installed typings ["@types/eslint@ts4.6"]
+[13:32:49.509] Installed typing files ["/home/carlos.filho/.cache/typescript/4.6/node_modules/@types/eslint/index.d.ts"]
+[13:32:49.509] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/carlos.filho/.cache/typescript/4.6/node_modules/@types/eslint/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[13:32:49.509] Response has been sent.
+[13:32:49.509] Sending response:
+    {"kind":"event::endInstallTypes","eventId":1,"projectName":"/dev/null/inferredProject1*","packagesToInstall":["@types/eslint@ts4.6"],"installSuccess":true,"typingsInstallerVersion":"4.6.3"}
+[13:32:49.509] Response has been sent.
+[13:32:49.954] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/main.js","/home/carlos.filho/.cache/typescript/4.6/node_modules/@types/eslint/helpers.d.ts","/home/carlos.filho/.cache/typescript/4.6/node_modules/@types/eslint/index.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/carlos.filho/Documentos/Projects/Recup-FrontEndII","kind":"discover"}
+[13:32:49.954] Explicitly included types: []
+[13:32:49.956] Typing names in '/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json' dependencies: ["eslint","eslint-config-google"]
+[13:32:49.957] Searching for typing names in /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules; all files: ["/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules/eslint/package.json","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules/eslint-config-google/package.json"]
+[13:32:49.966]     Found package names: ["eslint","eslint-config-google"]
+[13:32:49.966] Inferred typings from unresolved imports: []
+[13:32:49.968] Result: {"cachedTypingPaths":["/home/carlos.filho/.cache/typescript/4.6/node_modules/@types/eslint/index.d.ts"],"newTypingNames":["eslint-config-google"],"filesToWatch":["/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/bower_components","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules"]}
+[13:32:49.968] Finished typings discovery: {"cachedTypingPaths":["/home/carlos.filho/.cache/typescript/4.6/node_modules/@types/eslint/index.d.ts"],"newTypingNames":["eslint-config-google"],"filesToWatch":["/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/bower_components","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json","/home/carlos.filho/Documentos/Projects/Recup-FrontEndII/node_modules"]}
+[13:32:49.969] Installing typings ["eslint-config-google"]
+[13:32:49.969] 'eslint-config-google':: Entry for package 'eslint-config-google' does not exist in local types registry - skipping...
+[13:32:49.969] All typings are known to be missing or invalid - no need to install more typings
+[13:32:49.969] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/carlos.filho/.cache/typescript/4.6/node_modules/@types/eslint/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[13:32:49.970] Response has been sent.

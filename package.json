@@ -1,0 +1,23 @@
+{
+  "name": "recup-frontendii",
+  "version": "1.0.0",
+  "description": "Recuperação Front End II",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosalbertofilho/Recup-FrontEndII.git"
+  },
+  "author": "Carlos Alberto Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosalbertofilho/Recup-FrontEndII/issues"
+  },
+  "homepage": "https://github.com/carlosalbertofilho/Recup-FrontEndII#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
