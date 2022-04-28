@@ -8,13 +8,15 @@ body {
         'footer';
 }
 header{
+
     grid-area: header;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 0 30px;
     background: #8b74b6;
     color: white;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px 0 50px;
 }
 header img {
     width: 100px;
@@ -27,4 +29,50 @@ main {
 }
 footer {
     grid-area: footer;
+    padding: 10px 10px 0 10px;
+}
+
+footer, #description {
+    display: flex;
+    justify-content: space-between;
+    background: #3c2b5b;
+    color: white;
+}
+
+#description img {
+    padding-right: 10px;
+    margin-right: 5px;
+    border-right: solid 3px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 131px);
+    justify-content: center;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+    wight: 255px;
+    margin: 16px;
+    padding: 10px;
+}
+
+main img {
+    height: 255px;
+}
+
+.delete {
+    padding: 14px 30px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    width: 110px !important;
 }
