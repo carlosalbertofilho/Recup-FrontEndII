@@ -22,7 +22,7 @@ header img {
     width: 100px;
 }
 header h1 {
-    width: 400px;
+    width: 300px;
 }
 main {
     grid-area: main;
@@ -60,7 +60,7 @@ main section {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
-    wight: 255px;
+    width: 255px;
     margin: 16px;
     padding: 10px;
 }
