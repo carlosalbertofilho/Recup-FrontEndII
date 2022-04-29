@@ -1,14 +1,15 @@
 /* jshint esversion: 11 */
-import {addCard} from './drawElements.js';
-import {loadCats} from './consumeAPI.js';
+import {drawGrid} from './drawElements.js';
+import {catsOnLocalStore} from './consumeAPI.js';
 
 const mainReference = document.querySelector('main');
 
-addCard(mainReference, 'https://pngimg.com/uploads/cat/cat_PNG106.png');
-addCard(mainReference, 'https://pngimg.com/uploads/cat/cat_PNG106.png');
-addCard(mainReference, 'https://pngimg.com/uploads/cat/cat_PNG106.png');
+// if (!localStorage.getItem('listCats')) {
+//   catsOnLocalStore();
+// }
 
-loadCats()
-    .then(( data ) => {
-      console.log(data);
-    });
+catsOnLocalStore();
+
+
+drawGrid( mainReference );
+

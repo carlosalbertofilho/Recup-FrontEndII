@@ -3,7 +3,7 @@
 /**
 * This function consume the Cat APT
 */
-export async function loadCats( ) {
+async function loadCats() {
   const header = {
     'x-api-key': 'DEMO-API-KEY',
   };
@@ -15,10 +15,20 @@ export async function loadCats( ) {
 
   let options = '?size=med';
   options += '&order=RANDOM';
-  options += '&limit=9';
+  options += '&limit=12';
 
   const url = 'https://api.thecatapi.com/v1/images/search' + options;
 
   return fetch(url, requestManager)
-      .then( ( T ) => T.json() );
+      .then((T) => T.json());
+}
+
+/**
+* This function save a array of the cats on local Store
+*/
+export function catsOnLocalStore() {
+  loadCats()
+      .then((data) => {
+        localStorage.setItem('listCats', JSON.stringify(data));
+      });
 }
