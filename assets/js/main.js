@@ -3,19 +3,24 @@ import {drawGrid, delCard} from './drawElements.js';
 import {catsOnLocalStore} from './consumeAPI.js';
 
 const mainReference = document.querySelector('main');
-const buttonRef = document.getElementsByTagName('button');
+const trashButtonRef = document.getElementsByTagName('i');
 
-console.log(buttonRef);
 
 catsOnLocalStore();
+drawGrid(mainReference);
 
-drawGrid( mainReference );
-
-
-for ( const button of buttonRef ) {
+for ( const button of trashButtonRef ) {
   button.addEventListener('click', (event) => {
     event.preventDefault();
     const cardRef = document.getElementById(button.id);
     delCard(cardRef, button.id);
   });
 }
+
+window.addEventListener('storage', ( event ) => {
+  event.preventDefault();
+  if (!localStorage.getItem('listCats')) {
+    catsOnLocalStore();
+    drawGrid(mainReference);
+  }
+});

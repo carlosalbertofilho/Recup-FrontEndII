@@ -9,17 +9,16 @@
 function addCard(element, src, idCard) {
   const section = document.createElement('section');
   const img = document.createElement('img');
-  const button = document.createElement('button');
+  const i = document.createElement('i');
 
   img.src = src;
 
-  button.id = idCard;
-  button.innerText = 'Apagar';
-  button.className = 'delete';
+  i.id = idCard;
+  i.className = 'fa fa-trash fa-3x ';
 
   section.id = idCard;
   section.appendChild(img);
-  section.appendChild(button);
+  section.appendChild(i);
 
   element.appendChild(section);
 }
