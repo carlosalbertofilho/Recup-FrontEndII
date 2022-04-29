@@ -1,29 +1,135 @@
-Info 0    [13:32:47.510] Starting TS Server
-Info 1    [13:32:47.511] Version: 4.6.3
-Info 2    [13:32:47.511] Arguments: /usr/bin/node /home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/tsserver.js --logFile /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/774bcff521deb156ac50935ad5e358de/tscancellation*
-Info 3    [13:32:47.511] Platform: linux NodeVersion: 16 CaseSensitive: true
-Info 4    [13:32:47.511] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [13:32:47.524] Format host information updated
-Info 6    [13:32:47.536] Search path: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII
-Info 7    [13:32:47.537] For info: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/main.js :: No config files found.
-Info 8    [13:32:47.543] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 9    [13:32:48.453] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 909.538126999978ms
-Info 10   [13:32:48.453] Project '/dev/null/inferredProject1*' (Inferred)
-Info 11   [13:32:48.453] 	Files (19)
+Info 0    [21:03:54.865] Starting TS Server
+Info 1    [21:03:54.887] Version: 4.6.3
+Info 2    [21:03:54.887] Arguments: /usr/bin/node /home/carlos.filho/.npm-global/lib/node_modules/typescript/lib/tsserver.js --logFile /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/f953006220297c8b9a9c25e06814cc8b/tscancellation*
+Info 3    [21:03:54.888] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [21:03:54.888] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [21:03:54.972] Format host information updated
+Info 6    [21:03:55.128] Search path: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js
+Info 7    [21:03:55.146] For info: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js/main.js :: No config files found.
+Info 8    [21:03:55.217] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [21:04:11.314] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 16095.946871001273ms
+Info 10   [21:04:11.314] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [21:04:11.315] 	Files (19)
 
-Info 12   [13:32:48.453] -----------------------------------------------
-Info 13   [13:32:49.761] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 14   [13:32:49.851] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 89.8845080002211ms
-Info 15   [13:32:49.851] Project '/dev/null/inferredProject1*' (Inferred)
-Info 16   [13:32:49.852] 	Files (23)
+Info 12   [21:04:11.315] -----------------------------------------------
+Info 13   [21:04:11.484] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 14   [21:04:11.551] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 66.66531800106168ms
+Info 15   [21:04:11.551] Different program with same set of files
+Info 16   [21:04:11.560] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 17   [21:04:11.598] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: SafeModules Elapsed: 38.12354499846697ms
+Info 18   [21:04:11.598] Different program with same set of files
+Info 19   [21:04:11.604] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [21:04:11.637] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: true structureIsReused:: SafeModules Elapsed: 32.529242999851704ms
+Info 21   [21:04:11.637] Different program with same set of files
+Info 22   [21:04:11.663] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 23   [21:04:11.693] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: true structureIsReused:: SafeModules Elapsed: 30.090574998408556ms
+Info 24   [21:04:11.693] Different program with same set of files
+Info 25   [21:04:11.712] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [21:04:11.751] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: true structureIsReused:: SafeModules Elapsed: 39.140760000795126ms
+Info 27   [21:04:11.752] Different program with same set of files
+Info 28   [21:04:11.763] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 29   [21:04:11.806] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: true structureIsReused:: SafeModules Elapsed: 42.99891899898648ms
+Info 30   [21:04:11.806] Different program with same set of files
+Info 31   [21:04:11.819] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 32   [21:04:11.845] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: true structureIsReused:: SafeModules Elapsed: 25.168012000620365ms
+Info 33   [21:04:11.845] Different program with same set of files
+Info 34   [21:04:11.855] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 35   [21:04:11.898] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: true structureIsReused:: SafeModules Elapsed: 43.32776699960232ms
+Info 36   [21:04:11.898] Different program with same set of files
+Info 37   [21:04:17.143] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 38   [21:04:17.196] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: true structureIsReused:: SafeModules Elapsed: 52.69325600191951ms
+Info 39   [21:04:17.196] Different program with same set of files
+Info 40   [21:04:18.204] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 41   [21:04:18.258] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: true structureIsReused:: SafeModules Elapsed: 54.31811499968171ms
+Info 42   [21:04:18.259] Different program with same set of files
+Info 43   [21:04:18.862] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 44   [21:04:18.921] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: true structureIsReused:: SafeModules Elapsed: 59.05198299884796ms
+Info 45   [21:04:18.921] Different program with same set of files
+Info 46   [21:04:22.623] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 47   [21:04:22.678] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: true structureIsReused:: SafeModules Elapsed: 54.73609999939799ms
+Info 48   [21:04:22.678] Different program with same set of files
+Info 49   [21:04:22.694] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 50   [21:04:22.739] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: true structureIsReused:: SafeModules Elapsed: 45.3704430013895ms
+Info 51   [21:04:22.739] Different program with same set of files
+Info 52   [21:04:23.664] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 53   [21:04:23.694] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: true structureIsReused:: SafeModules Elapsed: 29.901046000421047ms
+Info 54   [21:04:23.694] Different program with same set of files
+Info 55   [21:04:24.214] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 56   [21:04:24.248] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: true structureIsReused:: SafeModules Elapsed: 34.32955499738455ms
+Info 57   [21:04:24.248] Different program with same set of files
+Info 58   [21:04:24.793] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 59   [21:04:24.827] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: true structureIsReused:: SafeModules Elapsed: 33.92422800138593ms
+Info 60   [21:04:24.827] Different program with same set of files
+Info 61   [21:04:27.799] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 62   [21:04:27.847] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: true structureIsReused:: SafeModules Elapsed: 48.286211002618074ms
+Info 63   [21:04:27.847] Different program with same set of files
+Info 64   [21:04:27.850] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 65   [21:04:27.888] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: true structureIsReused:: SafeModules Elapsed: 37.447826001793146ms
+Info 66   [21:04:27.888] Different program with same set of files
+Info 67   [21:04:28.181] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 68   [21:04:28.214] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 20 structureChanged: true structureIsReused:: SafeModules Elapsed: 32.82354399934411ms
+Info 69   [21:04:28.214] Different program with same set of files
+Info 70   [21:04:29.500] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 71   [21:04:29.529] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 21 structureChanged: true structureIsReused:: SafeModules Elapsed: 28.410443000495434ms
+Info 72   [21:04:29.529] Different program with same set of files
+Info 73   [21:04:29.847] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 74   [21:04:29.876] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 22 structureChanged: true structureIsReused:: SafeModules Elapsed: 28.300744999200106ms
+Info 75   [21:04:29.876] Different program with same set of files
+Info 76   [21:04:30.388] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 77   [21:04:30.412] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 23 structureChanged: true structureIsReused:: SafeModules Elapsed: 23.610266998410225ms
+Info 78   [21:04:30.412] Different program with same set of files
+Info 79   [21:04:30.656] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 80   [21:04:30.679] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 24 structureChanged: true structureIsReused:: SafeModules Elapsed: 22.839060001075268ms
+Info 81   [21:04:30.679] Different program with same set of files
+Info 82   [21:04:33.310] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 83   [21:04:33.343] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 25 structureChanged: true structureIsReused:: SafeModules Elapsed: 33.10574600100517ms
+Info 84   [21:04:33.343] Different program with same set of files
+Info 85   [21:04:33.681] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 86   [21:04:33.707] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 26 structureChanged: true structureIsReused:: SafeModules Elapsed: 25.325213000178337ms
+Info 87   [21:04:33.707] Different program with same set of files
+Info 88   [21:04:39.066] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 89   [21:04:39.073] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 7.305040996521711ms
+Info 90   [21:04:39.073] Different program with same set of files
+Info 91   [21:04:41.300] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 92   [21:04:41.308] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 6.7630749978125095ms
+Info 93   [21:04:41.308] Different program with same set of files
+Info 94   [21:07:23.458] FileWatcher:: Triggered with /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json 1:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json 250 undefined WatchType: package.json file
+Info 95   [21:07:23.461] Elapsed:: 2.275866001844406ms FileWatcher:: Triggered with /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json 1:: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/package.json 250 undefined WatchType: package.json file
+Info 96   [21:13:54.327] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 97   [21:13:54.905] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 29 structureChanged: true structureIsReused:: SafeModules Elapsed: 577.478548001498ms
+Info 98   [21:13:54.905] Different program with same set of files
+Info 99   [21:13:55.515] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 100  [21:13:55.646] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 30 structureChanged: true structureIsReused:: SafeModules Elapsed: 130.41754300147295ms
+Info 101  [21:13:55.646] Different program with same set of files
+Info 102  [21:13:55.658] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 103  [21:13:55.863] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 31 structureChanged: true structureIsReused:: SafeModules Elapsed: 204.61524400115013ms
+Info 104  [21:13:55.863] Different program with same set of files
+Info 105  [21:13:56.139] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 106  [21:13:56.260] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 32 structureChanged: true structureIsReused:: SafeModules Elapsed: 120.4764449968934ms
+Info 107  [21:13:56.260] Different program with same set of files
+Info 108  [21:13:56.362] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 109  [21:13:56.521] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 33 structureChanged: true structureIsReused:: SafeModules Elapsed: 159.05615400150418ms
+Info 110  [21:13:56.522] Project '/dev/null/inferredProject1*' (Inferred)
+Info 111  [21:13:56.523] 	Files (20)
 
-Info 17   [13:32:49.852] -----------------------------------------------
-Info 18   [13:32:52.013] Before ensureProjectForOpenFiles:
-Info 19   [13:32:52.013] After ensureProjectForOpenFiles:
-Info 20   [13:32:52.014] got projects updated in background, updating diagnostics for /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/main.js
-Info 21   [14:29:01.200] DirectoryWatcher:: Triggered with /home/carlos.filho/.npm-global/lib/node_modules/vscode-css-languageserver-bin :: WatchInfo: /home/carlos.filho/.npm-global/lib/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
-Info 22   [14:29:01.201] Elapsed:: 0.22830000054091215ms DirectoryWatcher:: Triggered with /home/carlos.filho/.npm-global/lib/node_modules/vscode-css-languageserver-bin :: WatchInfo: /home/carlos.filho/.npm-global/lib/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
-Info 23   [14:29:01.202] DirectoryWatcher:: Triggered with /home/carlos.filho/.npm-global/lib/node_modules/vscode-html-languageserver-bin :: WatchInfo: /home/carlos.filho/.npm-global/lib/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
-Info 24   [14:29:01.202] Elapsed:: 0.036096999421715736ms DirectoryWatcher:: Triggered with /home/carlos.filho/.npm-global/lib/node_modules/vscode-html-languageserver-bin :: WatchInfo: /home/carlos.filho/.npm-global/lib/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
-Info 25   [14:29:02.716] DirectoryWatcher:: Triggered with /home/carlos.filho/.npm-global/lib/node_modules :: WatchInfo: /home/carlos.filho/.npm-global/lib/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
-Info 26   [14:29:02.717] Elapsed:: 0.24132599961012602ms DirectoryWatcher:: Triggered with /home/carlos.filho/.npm-global/lib/node_modules :: WatchInfo: /home/carlos.filho/.npm-global/lib/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 112  [21:13:56.523] -----------------------------------------------
+Info 113  [21:13:59.791] DirectoryWatcher:: Triggered with /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js/.#main.js :: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 114  [21:13:59.793] Elapsed:: 1.1147839985787868ms DirectoryWatcher:: Triggered with /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js/.#main.js :: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 115  [21:16:04.982] DirectoryWatcher:: Triggered with /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js/.#main.js :: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 116  [21:16:05.086] Elapsed:: 0.12745099887251854ms DirectoryWatcher:: Triggered with /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js/.#main.js :: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 117  [21:16:05.190] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 118  [21:16:05.217] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 26.348639000207186ms
+Info 119  [21:16:05.217] Different program with same set of files
+Info 120  [21:16:06.551] Format host information updated
+Info 121  [21:16:06.650] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 122  [21:16:06.659] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 8.134363003075123ms
+Info 123  [21:16:06.659] Different program with same set of files
+Info 124  [21:16:09.504] Format host information updated
+Info 125  [21:16:09.724] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 126  [21:16:09.815] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 84.91973700001836ms
+Info 127  [21:16:09.815] Different program with same set of files
+Info 128  [21:16:18.394] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 129  [21:16:18.447] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 53.0924980007112ms
+Info 130  [21:16:18.448] Different program with same set of files
+Info 131  [21:16:20.005] DirectoryWatcher:: Triggered with /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js/.#main.js :: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 132  [21:16:20.005] Elapsed:: 0.07925399765372276ms DirectoryWatcher:: Triggered with /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js/.#main.js :: WatchInfo: /home/carlos.filho/Documentos/Projects/Recup-FrontEndII/assets/js 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
