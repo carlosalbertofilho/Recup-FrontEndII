@@ -8,19 +8,17 @@ export async function loadCats( ) {
     'x-api-key': 'DEMO-API-KEY',
   };
 
-  const options = {
-    'limit': 9,
-    'page': 0,
-    'size': 'med',
-    'order': 'RANDOM',
-  };
-
   const requestManager = {
     method: 'GET',
-    body: JSON.stringify(options),
     headers: header,
   };
 
-  return fetch('https://api.thecatapi.com/v1/images/search', requestManager)
-      .then( (T) => T.json() );
+  let options = '?size=med';
+  options += '&order=RANDOM';
+  options += '&limit=9';
+
+  const url = 'https://api.thecatapi.com/v1/images/search' + options;
+
+  return fetch(url, requestManager)
+      .then( ( T ) => T.json() );
 }
