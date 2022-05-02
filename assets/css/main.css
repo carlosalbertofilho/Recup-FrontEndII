@@ -74,9 +74,9 @@ main i {
 }
 
 #Loading {
-    background:url('../img/loading-gif.gif') no-repeat center center;
-    height: 175px;
-    width: 175px;
+    background:url(https://carlosalbertofilho.github.io/Recup-FrontEndII/assets/img/loading-gif.gif) no-repeat center center;
+    height: 150px;
+    width: 150px;
     position: fixed;
     left: 50%;
     top: 50%;
