@@ -48,3 +48,4 @@ export function delCard( cardRef, idCat ) {
   localStorage.setItem('listCats', JSON.stringify(listCats));
   cardRef.remove();
 }
+

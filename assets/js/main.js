@@ -4,23 +4,25 @@ import {catsOnLocalStore} from './consumeAPI.js';
 
 const mainReference = document.querySelector('main');
 const trashButtonRef = document.getElementsByTagName('i');
-
+const load = document.getElementById('Loading');
 
 catsOnLocalStore();
-drawGrid(mainReference);
 
-for ( const button of trashButtonRef ) {
-  button.addEventListener('click', (event) => {
-    event.preventDefault();
-    const cardRef = document.getElementById(button.id);
-    delCard(cardRef, button.id);
-  });
-}
-
-window.addEventListener('storage', ( event ) => {
-  event.preventDefault();
-  if (!localStorage.getItem('listCats')) {
-    catsOnLocalStore();
-    drawGrid(mainReference);
+// draws itens after complete loading.
+window.onload = () => {
+  load.remove();
+  drawGrid(mainReference);
+  for (const button of trashButtonRef) {
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      const cardRef = document.getElementById(button.id);
+      delCard(cardRef, button.id);
+    });
   }
-});
+};
+
+// clean localStore after exit browser/tab.
+window.onbeforeunload = () => {
+  localStorage.removeItem('listCats');
+};
+
