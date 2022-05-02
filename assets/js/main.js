@@ -23,6 +23,6 @@ window.onload = () => {
 
 // clean localStore after exit browser/tab.
 window.onbeforeunload = () => {
-  localStorage.removeItem('listCats');
+  localStorage.clean();
 };
 
