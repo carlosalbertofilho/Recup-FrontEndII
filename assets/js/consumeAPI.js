@@ -24,11 +24,26 @@ async function loadCats() {
 }
 
 /**
+* This function show a error message to catch API data
+*/
+function apiError() {
+  Swal.fire({
+    position: 'top-end',
+    icon: 'error',
+    title: 'Ops..!',
+    text: 'Um erro ocorreu ao carregar os dados da API! Reflash a página!',
+    showConfirmButton: false,
+    timer: 3500,
+  });
+}
+
+/**
 * This function save a array of the cats on local Store
 */
 export function catsOnLocalStorage() {
   loadCats()
       .then((data) => {
         localStorage.setItem('listCats', JSON.stringify(data));
-      });
+      })
+      .catch(() => apiError());
 }

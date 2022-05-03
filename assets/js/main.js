@@ -22,7 +22,7 @@ window.onload = () => {
   }
 };
 
-// clean localStore after exit browser/tab.
+// clean localStore on exit browser/tab.
 window.onbeforeunload = () => {
   localStorage.clean();
 };
