@@ -26,7 +26,7 @@ async function loadCats() {
 /**
 * This function save a array of the cats on local Store
 */
-export function catsOnLocalStore() {
+export function catsOnLocalStorage() {
   loadCats()
       .then((data) => {
         localStorage.setItem('listCats', JSON.stringify(data));

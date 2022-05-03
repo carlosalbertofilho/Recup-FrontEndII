@@ -14,9 +14,10 @@ function addCard(element, src, idCard) {
   img.src = src;
 
   i.id = idCard;
-  i.className = 'fa fa-trash fa-3x ';
+  i.className = 'fa fa-trash fa-3x';
 
   section.id = idCard;
+  section.className = 'hidden';
   section.appendChild(img);
   section.appendChild(i);
 
@@ -36,6 +37,17 @@ export function drawGrid( element ) {
 }
 
 /**
+* This function show card after load API's data.
+* @param {object} cardRef reference to card
+*/
+export function showGrid( cardRef ) {
+  const listCards = cardRef;
+  for (let i = 0; i < (cardRef.length - 2); i++ ) {
+    listCards[i].classList.remove('hidden');
+  }
+}
+
+/**
 * This function delete a cats array element
 * This function delete a element of the grid of card
 * This Function data update of the local store.
@@ -48,4 +60,5 @@ export function delCard( cardRef, idCat ) {
   localStorage.setItem('listCats', JSON.stringify(listCats));
   cardRef.remove();
 }
+
 
